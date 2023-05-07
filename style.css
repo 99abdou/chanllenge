@@ -1,0 +1,85 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-color: rgb(20, 19, 19);
+}
+
+.box{
+    width: 350px;
+    height: 350px;
+    background-color: #05155b;
+    margin: 165px auto;
+    /* padding: 10%; */
+    border-radius: 1%;
+    box-shadow: 0 2px 2px 2px #000;
+}
+
+.one{
+    display: flex;
+    margin-left: 5px;
+}
+
+.one img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    margin-top: 3%;
+}
+
+.titre{
+    margin-left: 2%;
+}
+
+.titre h1{
+    color: white;
+    font-size: 15px;
+}
+
+.titre p{
+    color: white;
+    font-size: 13px;   
+    background: blue; 
+}
+
+.para p{
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.photo img{
+    width: 340px;
+    height: 165px;
+    margin-left: 1%;
+}
+
+.font{
+    margin-left: 2%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+.fa-heart,
+.fa-face-laugh-beam{
+    color: white;
+    margin: 2px;
+}
+
+.input{
+    margin-left: 32%;
+}
+
+.input input{
+    border: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:300px) {
+    .box{
+        width: 100%;
+    }
+}
